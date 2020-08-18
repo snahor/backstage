@@ -3410,10 +3410,10 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@spotify/eslint-config-base@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config-base/-/eslint-config-base-7.0.0.tgz#36804ae09ec938f1aa5f9464ea993f3f151cfaa8"
-  integrity sha512-XRTrTRyRRYBxPYINKNHw4B8QWlA3p4I+id/Po2sMdejtXH3LZgDgIjdschUZSdQ6J6dVYDdaVykdizRM9I+G6Q==
+"@spotify/eslint-config-base@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config-base/-/eslint-config-base-8.0.0.tgz#c3d10d8a05ad9129d579952cb80063e4c4fa216e"
+  integrity sha512-07Fo+KoTMl4AaZJPD6deFnYmG634wzgeqfFcWdFlIrOLAasvWSH8Lp6ZE9cJBKuffOAy8kuEE1SwFo34+5X8bQ==
 
 "@spotify/eslint-config-oss@^1.0.1":
   version "1.0.2"
@@ -3422,29 +3422,29 @@
   dependencies:
     eslint-plugin-notice "^0.9.10"
 
-"@spotify/eslint-config-react@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config-react/-/eslint-config-react-7.0.1.tgz#2e70de9d7911ea9aeaa55a83a332220a28f6c431"
-  integrity sha512-HNDHvm19EaBXiDgsg52mjMgKWZTeA0hO2Q75ACNwb8UtjIKkANqyyuzyDGo8jiGMbWIm6wJjShlRtT95emNlqQ==
+"@spotify/eslint-config-react@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config-react/-/eslint-config-react-8.0.2.tgz#91af3c58b22d49a96795336ed66927e722cda430"
+  integrity sha512-V0gzO/jWmjhODLINAfeunHj+OBdj/cQeVDw+92ZUlkonAg6BZLjX6Vy8jeIUFjfgmVOtI9eKbcApxaurj1jN6g==
 
-"@spotify/eslint-config-typescript@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config-typescript/-/eslint-config-typescript-7.0.0.tgz#fc5227e3344f74b41ac3a530df24a95ac13254e4"
-  integrity sha512-28I/SAf68NKbWZ5IY0WYMa0D18PxWdC9DP9gRbOTlZufmsS8jEgqf3zBUWmP6XOf1nihpKWcqvbFUG5H7/JYXA==
+"@spotify/eslint-config-typescript@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config-typescript/-/eslint-config-typescript-8.0.1.tgz#2d3ee56a8a3f945454109086639cde47251d1e62"
+  integrity sha512-ALkA4WA2ZikX7grkptZ36J1N/iap0IJeViy6/ZcxSkm6yEy2BYslmS2MdoJ5PV/DfZ3Z/21d/+XYFqVEpcbrXg==
 
-"@spotify/eslint-config@^7.0.0", "@spotify/eslint-config@^7.0.1":
-  version "7.0.1"
-  resolved "https://registry.npmjs.org/@spotify/eslint-config/-/eslint-config-7.0.1.tgz#07a21cfd7fce89cfc2c6dd5ea5d747e741201b66"
-  integrity sha512-8GI/TZGUhS4pr7oipT2MjrZFRgXcKzk9YImEusUdD2f5vlCniRFIBQNrvTMkyjfdQqvIVqJPLcdVPXeAgprsMw==
+"@spotify/eslint-config@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.npmjs.org/@spotify/eslint-config/-/eslint-config-8.0.2.tgz#2c0aa02e6914794b71bc61288217b5c0895691c6"
+  integrity sha512-f5y2ugeIFzq2FiXcg3cJkjL7Aqtge68Aik4dAYY3mulYH8Y583s025sPrWwUsgLuV96S6c5RQtW6gxuB4DePfw==
   dependencies:
-    "@spotify/eslint-config-base" "^7.0.0"
-    "@spotify/eslint-config-react" "^7.0.1"
-    "@spotify/eslint-config-typescript" "^7.0.0"
-    "@spotify/web-scripts-utils" "^7.0.0"
-    "@typescript-eslint/eslint-plugin" "^2.14.0"
-    "@typescript-eslint/parser" "^2.14.0"
+    "@spotify/eslint-config-base" "^8.0.0"
+    "@spotify/eslint-config-react" "^8.0.2"
+    "@spotify/eslint-config-typescript" "^8.0.1"
+    "@spotify/web-scripts-utils" "^8.0.0"
+    "@typescript-eslint/eslint-plugin" "^3.4.0"
+    "@typescript-eslint/parser" "^3.4.0"
     eslint-config-prettier "^6.0.0"
-    eslint-plugin-jest "^23.6.0"
+    eslint-plugin-jest "^23.17.1"
     eslint-plugin-jsx-a11y "^6.2.1"
     eslint-plugin-react "^7.12.4"
     eslint-plugin-react-hooks "^4.0.0"
@@ -3459,10 +3459,10 @@
   resolved "https://registry.npmjs.org/@spotify/prettier-config/-/prettier-config-8.0.0.tgz#8b6c2bd579ddc54887155a0721fe04e96c89f7f2"
   integrity sha512-so8w32ZV42CHWxOEXcBtbNO/hLXFrQNXVmhfzhUI6dVB9cq2xjRaiqu8GjFj8LvKbWpPj+S+KwTIS4aDVWqrFQ==
 
-"@spotify/web-scripts-utils@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.npmjs.org/@spotify/web-scripts-utils/-/web-scripts-utils-7.0.0.tgz#8c6b8039fc645a36ac48629eb9ba06600f4d828a"
-  integrity sha512-McMy0j60lxOHjgDjegthZqEWN/PabphiM30A/mI/Y7xh9+JFnYWBTSm/wgn6EW2BsPpV631xSYYkk6B1Ph14Fw==
+"@spotify/web-scripts-utils@^8.0.0":
+  version "8.0.0"
+  resolved "https://registry.npmjs.org/@spotify/web-scripts-utils/-/web-scripts-utils-8.0.0.tgz#83e49a0050e0ca553769cea4052fe438bc0378a7"
+  integrity sha512-5ADUaRRW+ZJHYhfSiaJVVq+9hVfAin+WYaJzEd/3oTvd6P1BrVsAdyxBdmXtacTHu+vjlVoye/kxdpUhlIq9Iw==
   dependencies:
     glob "^7.1.4"
     read-pkg-up "^7.0.1"
@@ -5389,18 +5389,30 @@
   resolved "https://registry.npmjs.org/@types/zen-observable/-/zen-observable-0.8.0.tgz#8b63ab7f1aa5321248aad5ac890a485656dcea4d"
   integrity sha512-te5lMAWii1uEJ4FwLjzdlbw3+n0FZNOvFXHxQDKeT0dilh7HOzdMzV2TrJVUzq8ep7J4Na8OUYPRLSQkJHAlrg==
 
-"@typescript-eslint/eslint-plugin@^2.14.0":
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-2.24.0.tgz#a86cf618c965a462cddf3601f594544b134d6d68"
-  integrity sha512-wJRBeaMeT7RLQ27UQkDFOu25MqFOBus8PtOa9KaT5ZuxC1kAsd7JEHqWt4YXuY9eancX0GK9C68i5OROnlIzBA==
+"@typescript-eslint/eslint-plugin@^3.4.0":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.9.1.tgz#8cf27b6227d12d66dd8dc1f1a4b04d1daad51c2e"
+  integrity sha512-XIr+Mfv7i4paEdBf0JFdIl9/tVxyj+rlilWIfZ97Be0lZ7hPvUbS5iHt9Glc8kRI53dsr0PcAEudbf8rO2wGgg==
   dependencies:
-    "@typescript-eslint/experimental-utils" "2.24.0"
-    eslint-utils "^1.4.3"
+    "@typescript-eslint/experimental-utils" "3.9.1"
+    debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
+    semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@2.24.0", "@typescript-eslint/experimental-utils@^2.5.0":
+"@typescript-eslint/experimental-utils@3.9.1":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-3.9.1.tgz#b140b2dc7a7554a44f8a86fb6fe7cbfe57ca059e"
+  integrity sha512-lkiZ8iBBaYoyEKhCkkw4SAeatXyBq9Ece5bZXdLe1LWBUwTszGbmbiqmQbwWA8cSYDnjWXp9eDbXpf9Sn0hLAg==
+  dependencies:
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/types" "3.9.1"
+    "@typescript-eslint/typescript-estree" "3.9.1"
+    eslint-scope "^5.0.0"
+    eslint-utils "^2.0.0"
+
+"@typescript-eslint/experimental-utils@^2.5.0":
   version "2.24.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/experimental-utils/-/experimental-utils-2.24.0.tgz#a5cb2ed89fedf8b59638dc83484eb0c8c35e1143"
   integrity sha512-DXrwuXTdVh3ycNCMYmWhUzn/gfqu9N0VzNnahjiDJvcyhfBy4gb59ncVZVxdp5XzBC77dCncu0daQgOkbvPwBw==
@@ -5409,15 +5421,21 @@
     "@typescript-eslint/typescript-estree" "2.24.0"
     eslint-scope "^5.0.0"
 
-"@typescript-eslint/parser@^2.14.0":
-  version "2.24.0"
-  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-2.24.0.tgz#2cf0eae6e6dd44d162486ad949c126b887f11eb8"
-  integrity sha512-H2Y7uacwSSg8IbVxdYExSI3T7uM1DzmOn2COGtCahCC3g8YtM1xYAPi2MAHyfPs61VKxP/J/UiSctcRgw4G8aw==
+"@typescript-eslint/parser@^3.4.0":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-3.9.1.tgz#ab7983abaea0ae138ff5671c7c7739d8a191b181"
+  integrity sha512-y5QvPFUn4Vl4qM40lI+pNWhTcOWtpZAJ8pOEQ21fTTW4xTJkRplMjMRje7LYTXqVKKX9GJhcyweMz2+W1J5bMg==
   dependencies:
     "@types/eslint-visitor-keys" "^1.0.0"
-    "@typescript-eslint/experimental-utils" "2.24.0"
-    "@typescript-eslint/typescript-estree" "2.24.0"
+    "@typescript-eslint/experimental-utils" "3.9.1"
+    "@typescript-eslint/types" "3.9.1"
+    "@typescript-eslint/typescript-estree" "3.9.1"
     eslint-visitor-keys "^1.1.0"
+
+"@typescript-eslint/types@3.9.1":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-3.9.1.tgz#b2a6eaac843cf2f2777b3f2464fb1fbce5111416"
+  integrity sha512-15JcTlNQE1BsYy5NBhctnEhEoctjXOjOK+Q+rk8ugC+WXU9rAcS2BYhoh6X4rOaXJEpIYDl+p7ix+A5U0BqPTw==
 
 "@typescript-eslint/typescript-estree@2.24.0":
   version "2.24.0"
@@ -5431,6 +5449,27 @@
     lodash "^4.17.15"
     semver "^6.3.0"
     tsutils "^3.17.1"
+
+"@typescript-eslint/typescript-estree@3.9.1":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/typescript-estree/-/typescript-estree-3.9.1.tgz#fd81cada74bc8a7f3a2345b00897acb087935779"
+  integrity sha512-IqM0gfGxOmIKPhiHW/iyAEXwSVqMmR2wJ9uXHNdFpqVvPaQ3dWg302vW127sBpAiqM9SfHhyS40NKLsoMpN2KA==
+  dependencies:
+    "@typescript-eslint/types" "3.9.1"
+    "@typescript-eslint/visitor-keys" "3.9.1"
+    debug "^4.1.1"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
+
+"@typescript-eslint/visitor-keys@3.9.1":
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@typescript-eslint/visitor-keys/-/visitor-keys-3.9.1.tgz#92af3747cdb71509199a8f7a4f00b41d636551d1"
+  integrity sha512-zxdtUjeoSh+prCpogswMwVUJfEFmCOjdzK9rpNjNBfm6EyPt99x3RrJoBOGZO23FCt0WPKUCOL5mb/9D5LjdwQ==
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -10180,10 +10219,10 @@ eslint-plugin-import@^2.20.2, eslint-plugin-import@^2.22.0:
     resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-plugin-jest@^23.6.0:
-  version "23.8.2"
-  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-23.8.2.tgz#6f28b41c67ef635f803ebd9e168f6b73858eb8d4"
-  integrity sha512-xwbnvOsotSV27MtAe7s8uGWOori0nUsrXh2f1EnpmXua8sDfY6VZhHAhHg2sqK7HBNycRQExF074XSZ7DvfoFg==
+eslint-plugin-jest@^23.17.1:
+  version "23.20.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-jest/-/eslint-plugin-jest-23.20.0.tgz#e1d69c75f639e99d836642453c4e75ed22da4099"
+  integrity sha512-+6BGQt85OREevBDWCvhqj1yYA4+BFK4XnRZSGJionuEYmcglMZYLNNBBemwzbqUAckURaHdJSBcjHPyrtypZOw==
   dependencies:
     "@typescript-eslint/experimental-utils" "^2.5.0"
 
@@ -10262,13 +10301,6 @@ eslint-scope@^5.0.0, eslint-scope@^5.1.0:
   dependencies:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
-
-eslint-utils@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.npmjs.org/eslint-utils/-/eslint-utils-1.4.3.tgz#74fec7c54d0776b6f67e0251040b5806564e981f"
-  integrity sha512-fbBN5W2xdY45KulGXmLHZ3c3FHfVYmKg0IrAKGOkT/464PQsx2UeIzfz1RmEci+KLm1bBaAzZAh8+/E+XAeZ8Q==
-  dependencies:
-    eslint-visitor-keys "^1.1.0"
 
 eslint-utils@^2.0.0:
   version "2.0.0"
