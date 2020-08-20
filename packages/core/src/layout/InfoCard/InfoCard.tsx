@@ -20,6 +20,7 @@ import {
   CardActions,
   CardContent,
   CardHeader,
+  CardHeaderProps,
   Divider,
   withStyles,
   makeStyles,
@@ -40,10 +41,22 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const BoldHeader = withStyles(theme => ({
-  title: { fontWeight: 700 },
-  subheader: { paddingTop: theme.spacing(1) },
-}))(CardHeader);
+const useHeaderStyles = makeStyles(theme => ({
+  title: {
+    fontWeight: 700,
+  },
+  subheader: {
+    paddingTop: theme.spacing(1),
+  },
+}));
+
+const BoldHeader = (props: CardHeaderProps) => {
+  const defaultClasses = useHeaderStyles();
+  const classes = props.classes
+    ? { ...defaultClasses, ...props.classes }
+    : defaultClasses;
+  return <CardHeader classes={classes} {...props} />;
+};
 
 const CardActionsTopRight = withStyles(theme => ({
   root: {
@@ -175,7 +188,7 @@ export const InfoCard: FC<Props> = ({
       calculatedCardStyle = {
         ...calculatedCardStyle,
         ...VARIANT_STYLES.cardContent[
-          name as keyof typeof VARIANT_STYLES['cardContent']
+        name as keyof typeof VARIANT_STYLES['cardContent']
         ],
       };
     });
