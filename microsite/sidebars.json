@@ -4,7 +4,9 @@
       "overview/what-is-backstage",
       "overview/architecture-overview",
       "overview/architecture-terminology",
-      "overview/roadmap"
+      "overview/roadmap",
+      "overview/vision",
+      "overview/adopting"
     ],
     "Getting Started": [
       "getting-started/index",
@@ -103,7 +105,8 @@
       "auth/add-auth-provider",
       "auth/auth-backend",
       "auth/oauth",
-      "auth/glossary"
+      "auth/glossary",
+      "auth/auth-backend-classes"
     ],
 
     "Designing for Backstage": [
